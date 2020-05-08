@@ -2,10 +2,10 @@ L.Control.Elevation = L.Control.extend({
     options: {
         position: "topright",
         theme: "lime-theme",
-        width: 600,
-        height: 175,
+        width: 0.1,
+        height: 0.1,
         margins: {
-            top: 10,
+            top: 1,
             right: 20,
             bottom: 30,
             left: 60
