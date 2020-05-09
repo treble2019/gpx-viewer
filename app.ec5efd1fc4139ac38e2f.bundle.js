@@ -26525,7 +26525,7 @@ webpackJsonp([0], {
                         attribution: 'Map data: &copy; <a href="http://www.openseamap.org">OpenSeaMap</a> contributors'
                     }
                 },
-                OpenTopoMap: {
+                EN: {
                     url: "//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                     options: {
                         maxZoom: 17,
@@ -26756,7 +26756,7 @@ webpackJsonp([0], {
                         Snow: "snow"
                     }
                 },
-                HERE: {
+                HEREv3: {
                     url: "//{s}.{base}.maps.cit.api.here.com/maptile/2.1/{type}/{mapID}/{variant}/{z}/{x}/{y}/{size}/{format}?app_id={app_id}&app_code={app_code}&lg={language}",
                     options: {
                         attribution: 'Map &copy; 1987-2014 <a href="http://developer.here.com">HERE</a>',
@@ -27315,7 +27315,7 @@ webpackJsonp([0], {
                 }),
                 v.addTo(g);
                 var e = function(t) {
-                    var n = ["OpenStreetMap.DE", "OpenTopoMap"];
+                    var n = ["OpenStreetMap.DE", "EN", "HEREv3.normalDay"];
                     return n.indexOf(t) !== -1
                 };
                 L.tileLayer.provider.eachLayer(function(t) {
@@ -27327,7 +27327,7 @@ webpackJsonp([0], {
                 L.control.layers.minimap(y, _, {
                     collapsed: !1
                 }).addTo(g),
-                y.OpenTopoMap.addTo(g)
+                y.EN.addTo(g)
             }
             function r() {
                 var t = {
