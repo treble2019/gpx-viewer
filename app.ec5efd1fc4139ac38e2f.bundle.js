@@ -26493,13 +26493,13 @@ webpackJsonp([0], {
                     variants: {
                         Mapnik: {},
                         BlackAndWhite: {
-                            url: "http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png",
+                            url: "https://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png",
                             options: {
                                 maxZoom: 18
                             }
                         },
                         DE: {
-                            url: "http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png",
+                            url: "https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png",
                             options: {
                                 maxZoom: 18
                             }
