@@ -27315,7 +27315,7 @@ webpackJsonp([0], {
                 }),
                 v.addTo(g);
                 var e = function(t) {
-                    var n = ["OpenStreetMap.DE", "EN", "HEREv3.normalDay"];
+                    var n = ["DE", "EN", "HEREv3.normalDay"];
                     return n.indexOf(t) !== -1
                 };
                 L.tileLayer.provider.eachLayer(function(t) {
@@ -27327,7 +27327,7 @@ webpackJsonp([0], {
                 L.control.layers.minimap(y, _, {
                     collapsed: !1
                 }).addTo(g),
-                y.EN.addTo(g)
+                y.DE.addTo(g)
             }
             function r() {
                 var t = {
