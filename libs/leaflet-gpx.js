@@ -142,7 +142,7 @@ L.GPX = L.FeatureGroup.extend({
   get_moving_time:     function() { return this._info.duration.moving; },
   get_total_time:      function() { return this._info.duration.total; },
 
-  get_moving_pace:     function() { return this.get_moving_time() / this.m_to_km(this.get_distance()); },
+  get_moving_pace:     function() { return this.get_total_time() / this.m_to_km(this.get_distance()); },
   get_moving_pace_imp: function() { return this.get_moving_time() / this.get_distance_imp(); },
 
   get_moving_speed:    function() { return this.m_to_km(this.get_distance()) / (this.get_moving_time() / (3600 * 1000)) ; },
